@@ -18,6 +18,18 @@ print on the screen the sum of those 2 numbers
 3. Add ‘num1’ and ‘num2’ together and store the result in ‘sum’.
 4. Print the value of ‘sum’.
 
+Pseudo code
+# Step 1: Ask the user to input the first number
+num1 = float(input("Enter the first number: "))
+
+# Step 2: Ask the user to input the second number
+num2 = float(input("Enter the second number: "))
+
+# Step 3: Add num1 and num2 together and store the result in sum
+sum = num1 + num2
+
+# Step 4: Print the value of sum
+print("The sum of the two numbers is:", sum)
 
 // Exercise 2: Check if a Number is Even or Odd
 1. Ask the user to input a number (num).
@@ -25,8 +37,18 @@ print on the screen the sum of those 2 numbers
    " If it is, print "The number is even."
    " If it is not, print "The number is odd."
 
+Pseudo code
 
+# Step 1: Ask the user to input a number
+num = int(input("Enter a number: "))
 
+# Step 2: Check if num is divisible by 2
+if num % 2 == 0:
+    # If it is, print "The number is even."
+    print("The number is even.")
+else:
+    # If it is not, print "The number is odd."
+    print("The number is odd.")
 
 
 
@@ -45,3 +67,20 @@ d) Write out the results found from steps b and c with a message describing what
    " Add the input number to total.
 3. Calculate the average by dividing the total by 5.
 4. Print the average.
+
+Pseudo code
+# Step 1: Initialize a variable total to 0
+total = 0
+
+# Step 2: Repeat the following steps 5 times
+for _ in range(5):
+    # Ask the user to input a number
+    num = float(input("Enter a number: "))
+    # Add the input number to total
+    total += num
+
+# Step 3: Calculate the average by dividing total by 5
+average = total / 5
+
+# Step 4: Print the average
+print("The average of the five numbers is:", average)

@@ -1,0 +1,47 @@
+﻿// Exercise 1: Calculate the Sum of Two Numbers
+
+
+a + b = c
+
+
+num1 + num2 = sum
+print sum
+
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+1. Ask the user to input the first number (‘num1’).
+2. Ask the user to input the second number (‘num2’).
+3. Add ‘num1’ and ‘num2’ together and store the result in ‘sum’.
+4. Print the value of ‘sum’.
+
+
+// Exercise 2: Check if a Number is Even or Odd
+1. Ask the user to input a number (num).
+2. Check if num is divisible by 2.
+   " If it is, print "The number is even."
+   " If it is not, print "The number is odd."
+
+
+
+
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+1. Initialize a variable total to 0.
+2. Repeat the following steps 5 times:
+   " Ask the user to input a number.
+   " Add the input number to total.
+3. Calculate the average by dividing the total by 5.
+4. Print the average.
